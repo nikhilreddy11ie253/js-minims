@@ -1,0 +1,11 @@
+var ram=['apple','banana','mango' 'grapes'];
+console.log(ram.length);
+var mohan=['mango','apple','banana' 'orange'];
+console.log(mohan.length);
+var roy=['apple','mango','banana ' 'pineapple'];
+console.log(roy.length);
+var totalcount=ram.length+mohan.length+roy.length;
+console.log(totalcount);
+var finalarray=totalcount.length;
+finalarray=[ram+" "+mohan+" "+roy];
+console.log(finalarray);
